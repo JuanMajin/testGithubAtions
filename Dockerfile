@@ -8,4 +8,4 @@ RUN npm install
 
 COPY . .
 
-CMD [ "echo", "Es una imagen" ]
+CMD [ "npm", "test" ]
