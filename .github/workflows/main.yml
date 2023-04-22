@@ -24,4 +24,4 @@ jobs:
       run: npm test
 
     - name: Run Docker
-      run: docker run 
+      run: docker build -t tallergithubactions .
